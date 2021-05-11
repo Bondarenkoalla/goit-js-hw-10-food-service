@@ -33,12 +33,9 @@ function changeTheme() {
       body.classList.remove(Theme.LIGHT);
     }
     body.classList.add(Theme.DARK);
-    
-      
-  } else  {
+  } else {
     body.classList.remove(Theme.DARK);
     body.classList.add(Theme.LIGHT);
-    
   }
   localStorage.setItem('theme', body.classList);
 }
